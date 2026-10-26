@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[ Penganalisis Peribadi ]"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Penuh:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cth: Ahmad bin Ali"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarikh Lahir:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTarikh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2000-05-15"
+        android:inputType="text"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnAnalisis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANALISIS SAYA"/>
+
+</LinearLayout>
